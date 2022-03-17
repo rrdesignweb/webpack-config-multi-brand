@@ -1,0 +1,10 @@
+@function brand-color($name, $initColors: $brand-colors) {
+    @if map-has-key($initColors, $name) {
+        @return map-get($initColors, $name);
+    }
+    @if map-has-key($global-colors, $name) {
+        @return map-get($global-colors, $name);
+    }
+    @error "The key #{$name} is not in the map $brand-colors or $global-colors";
+    @return null;
+}

@@ -1,0 +1,65 @@
+{
+  "name": "webpack-config-multi-brand",
+  "version": "0.1.0",
+  "private": true,
+  "config": {
+    "title": "React Nunjucks Webpack 5 Multi Brand Config"
+  },
+  "engine": {
+    "node": "14.15.0"
+  },
+  "scripts": {
+    "start:brand-one": "env-cmd -e global,development,brand-one webpack server",
+    "start:brand-two": "env-cmd -e global,development,brand-two webpack server",
+    "build-dev:brand-one": "env-cmd -e global,development,brand-one webpack",
+    "build-dev:brand-two": "env-cmd -e global,development,brand-one webpack",
+    "build-prod:brand-one": "env-cmd -e global,production,brand-one webpack",
+    "build-prod:brand-two": "env-cmd -e global,production,brand-two webpack",
+    "watch": "webpack --watch",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.5.1",
+    "env-cmd": "^10.1.0",
+    "favicons-webpack-plugin": "^5.0.2",
+    "filemanager-webpack-plugin": "^6.1.7",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "node-sass": "^6.0.1",
+    "nunjucks": "^3.2.3",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "resolve-url-loader": "^4.0.0",
+    "sass-loader": "^12.3.0",
+    "simple-nunjucks-loader": "^3.2.0",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "last 2 versions",
+      "not dead",
+      "not op_mini all",
+      "ie 9"
+    ],
+    "development": [
+      ">0.2%",
+      "last 2 versions",
+      "not dead",
+      "not op_mini all",
+      "ie 9"
+    ]
+  }
+}

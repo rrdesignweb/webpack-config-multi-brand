@@ -1,0 +1,9 @@
+//Config
+@import "scss/config/all";
+
+//General
+@import "scss/global";
+
+//Nunjucks Components
+@import "templates/components/Header/index";
+@import "templates/components/Footer/index";
