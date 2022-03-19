@@ -1,0 +1,22 @@
+{
+    "MockDataExample": {
+        "status": "SUCCESS",
+        "results": [
+            {
+                "id": "0",
+                "title": "Dolore consectetur ipsum nostrud laborum duis irure cupidatat do aliquip duis fugiat.",
+                "content": "Consequat cupidatat culpa laborum Lorem adipisicing in aliqua ullamco. Minim elit fugiat proident aliqua eiusmod aliquip sit magna duis officia dolore anim. Est voluptate dolor dolor velit proident sit amet magna ipsum ipsum eu fugiat. Lorem do aliquip laborum mollit anim. Quis eu nisi magna voluptate Lorem nostrud exercitation eu aliquip Lorem et ipsum. Deserunt cupidatat qui laborum sunt quis excepteur."
+            },
+            {
+                "id": "1",
+                "title": "Dolore consectetur ipsum nostrud laborum duis irure cupidatat do aliquip duis fugiat.",
+                "content": "Consequat cupidatat culpa laborum Lorem adipisicing in aliqua ullamco. Minim elit fugiat proident aliqua eiusmod aliquip sit magna duis officia dolore anim. Est voluptate dolor dolor velit proident sit amet magna ipsum ipsum eu fugiat. Lorem do aliquip laborum mollit anim. Quis eu nisi magna voluptate Lorem nostrud exercitation eu aliquip Lorem et ipsum. Deserunt cupidatat qui laborum sunt quis excepteur."
+            },
+            {
+                "id": "2",
+                "title": "Dolore consectetur ipsum nostrud laborum duis irure cupidatat do aliquip duis fugiat.",
+                "content": "Consequat cupidatat culpa laborum Lorem adipisicing in aliqua ullamco. Minim elit fugiat proident aliqua eiusmod aliquip sit magna duis officia dolore anim. Est voluptate dolor dolor velit proident sit amet magna ipsum ipsum eu fugiat. Lorem do aliquip laborum mollit anim. Quis eu nisi magna voluptate Lorem nostrud exercitation eu aliquip Lorem et ipsum. Deserunt cupidatat qui laborum sunt quis excepteur."
+            }
+        ]
+    }
+}

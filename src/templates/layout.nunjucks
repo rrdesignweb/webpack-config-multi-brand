@@ -3,13 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Webpack Config</title>
+        <title>Webpack Config 5 Multi Brand Boilerplate</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         {% include "components/Header/index.nunjucks" %}
-            {% block content %}{% endblock %}
+            <main>
+                {% block content %}{% endblock %}
+            </main>
         {% include "components/Footer/index.nunjucks" %}
     </body>
 </html>

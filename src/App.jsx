@@ -1,12 +1,10 @@
 //Components
-import Counter from "./components/Counter";
+import MainContainer from "./containers/MainContainer";
 
 export default function App() {
   return (
-    <>
-      <main>
-        <Counter />
-      </main>
-    </>
+    <div className="App">
+      <MainContainer />
+    </div>
   );
 }

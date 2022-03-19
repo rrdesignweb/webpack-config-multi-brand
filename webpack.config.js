@@ -2,10 +2,10 @@ const path = require("path");
 const fs = require("fs");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
-const FileManagerPlugin = require("filemanager-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const webpack = require("webpack");
+// const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+// const FileManagerPlugin = require("filemanager-webpack-plugin");
 
 //ENVIRONMENT MODE
 let mode = "development";

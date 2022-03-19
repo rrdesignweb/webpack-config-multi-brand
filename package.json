@@ -9,8 +9,9 @@
     "node": "14.15.0"
   },
   "scripts": {
-    "start:brand-one": "env-cmd -e global,development,brand-one webpack server",
-    "start:brand-two": "env-cmd -e global,development,brand-two webpack server",
+    "start:brand-one": "concurrently \"npm run start:json-server\" \"env-cmd -e global,development,brand-one webpack server\" ",
+    "start:brand-two": "concurrently \"npm run start:json-server\" \"env-cmd -e global,development,brand-two webpack server\" ",
+    "start:json-server": "node ./src/pages/_server/index.js",
     "build-dev:brand-one": "env-cmd -e global,development,brand-one webpack",
     "build-dev:brand-two": "env-cmd -e global,development,brand-one webpack",
     "build-prod:brand-one": "env-cmd -e global,production,brand-one webpack",
@@ -24,11 +25,14 @@
     "@babel/preset-react": "^7.16.0",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^7.0.0",
     "css-loader": "^6.5.1",
     "env-cmd": "^10.1.0",
     "favicons-webpack-plugin": "^5.0.2",
     "filemanager-webpack-plugin": "^6.1.7",
     "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.0",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "^2.4.4",
     "node-sass": "^6.0.1",
     "nunjucks": "^3.2.3",
@@ -43,6 +47,7 @@
     "webpack-dev-server": "^4.4.0"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
