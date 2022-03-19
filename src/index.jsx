@@ -10,8 +10,7 @@ import "./App.scss";
 
 //Nunjucks
 import "./pages/index.nunjucks";
-import "./pages/another-page.nunjucks";
-import "./pages/some-other-page.nunjucks";
+
 
 ReactDOM.render(
   <StrictMode>

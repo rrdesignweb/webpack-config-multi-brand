@@ -1,1 +1,16 @@
-<header>This is the Header Area for brand: {{ENV_BRAND}}</header>
+<header>
+    {% if ENV_BRAND === "brand-one"%}
+        <h2>Hello Brand One</h2>
+    {% endif %}
+    {% if ENV_BRAND === "brand-two"%}
+        <h2>Hello Brand Two</h2>
+    {% endif %}
+    <nav>
+        <ul>
+            <li>Link 1</li>
+            <li>Link 2</li>
+            <li>Link 3</li>
+            <li>Link 4</li>
+        </ul>
+    </nav>
+</header>

@@ -1,5 +1,0 @@
-{% extends 'layout.nunjucks' %}
-
-{% block content %}
-   <h1>Some other page</h1>
-{% endblock %}

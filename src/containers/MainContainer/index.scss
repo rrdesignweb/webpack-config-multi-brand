@@ -1,0 +1,17 @@
+.MainContainer {
+    ul {
+        font-size: 14px;
+        list-style-type: none;
+        padding: 0;
+        li,
+        span {
+            display: block;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        span {
+            margin-bottom: 5px;
+        }
+    }
+}

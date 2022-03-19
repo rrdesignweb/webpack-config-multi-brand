@@ -20,9 +20,10 @@
     "clean": "rm -rf build"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.0",
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-transform-runtime": "^7.17.0",
     "@babel/preset-env": "^7.16.0",
-    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "concurrently": "^7.0.0",
@@ -47,24 +48,14 @@
     "webpack-dev-server": "^4.4.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.17.8",
     "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "last 2 versions",
-      "not dead",
-      "not op_mini all",
-      "ie 9"
-    ],
-    "development": [
-      ">0.2%",
-      "last 2 versions",
-      "not dead",
-      "not op_mini all",
-      "ie 9"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "last 2 versions",
+    "not dead"
+  ]
 }

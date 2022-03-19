@@ -33,7 +33,7 @@ let htmlWebpackPages = null;
 let htmlPageNames = [];
 let pagesPath = "./src/pages/";
 fs.readdirSync(pagesPath).forEach((file) => {
-  if (file.endsWith(".nunjucks")) {
+  if (file.indexOf(".nunjucks") > -1) {
     htmlPageNames.push(file.split(".nunjucks")[0]);
   }
 
